@@ -21,6 +21,9 @@ app.post('/',async(req,res)=>{
 
 })
 
+app.get('/',(req,res)=>{
+    console.log("hai");
+})
 app.listen(3000,()=>{
     console.log("server is connected to port 3000");
 })
